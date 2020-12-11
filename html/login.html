@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../asserts/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+    <div id="head">
+        <div class="head-wrap">
+            <div class="page-header clear_fix">
+                <h1>
+                    <a href="./index.html"></a>
+                </h1>
+                <div></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="show">
+        <div class="show-wrap">
+            <img src="https://kaola-haitao.oss.kaolacdn.com/e2722b45-286b-45e9-a8e2-4558f4f1bee6.png" alt="">
+            <div class="login">
+                <form class="login-wrap active" id="login">
+                    <p>
+                        <span>登录</span>
+                        <a href="javascript:;">免费注册</a>
+                    </p>
+                    <h3>账号或密码错误</h3>
+                    <div class="input-group">
+                        <span class="input-group-addon">账号</span>
+                        <input type="text" class="form-control username" placeholder="" aria-describedby="basic-addon1" name="username" autocomplete="off">
+                    </div>
+                    <div class="input-group">
+                        <span class="input-group-addon">密码</span>
+                        <input type="password" class="form-control password" placeholder="" aria-describedby="basic-addon1" name="password" autocomplete="off">
+                    </div>
+                    <button type="button">登录</button>
+                    <span>注册/登录代表同意 隐私政策 和 服务条款</span>
+                    <div class="login_icon">
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </form>
+                <form class="reg-wrap" id="register" method="POST">
+                    <p>
+                        已有账号
+                        <span>请登录</span>
+                    </p>
+                    <div class="input-group">
+                        <span>账号</span>
+                        <input type="text" class="form-control" name="username" id="username" placeholder="" aria-describedby="basic-addon1" autocomplete="off">
+                    </div>
+                    <div class="input-group">
+                        <span>密码</span>
+                        <input type="password" class="form-control" name="password" placeholder="" aria-describedby="basic-addon1" id="password">
+                    </div>
+                    <div class="input-group">
+                        <span>确认密码</span>
+                        <input type="password" class="form-control" name="repeat" placeholder="" aria-describedby="basic-addon1" id="repeat">
+                    </div>
+                    <button>注册</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="../asserts/jquery/jquery.min.js"></script>
+    <script src="../asserts/jquery-validation/jquery.validate.min.js"></script>
+    <script src="../asserts/jquery-validation/localization/messages_zh.min.js"></script>
+    <script src="../js/public.js"></script>
+    <script src="../js/login.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,220 @@
+#cat {
+    background-color: #f3f3f3;
+}
+.cat-wrap {
+    width: 1090px;
+    margin: 0 auto;
+}
+.cat-wrap h2 {
+    height: 33px;
+    line-height: 22px;
+    font-size: 12px;
+    color: #333;
+}
+.cat_show {
+    display: flex;
+}
+.show_left {
+    width: 85px;
+    font-size: 12px;
+    padding-top: 12px;
+    background-color: #f8f8f8;
+    padding-left: 10px;
+}
+.show_right {
+    display: flex;
+    flex-wrap: wrap;
+    width: 843px;
+    background-color: #fff;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.show_right a {
+    width: 120px;
+    font-size: 12px;
+    color: #333;
+    margin-right: 18px;
+    margin-bottom: 4px;
+}
+.show_right .active {
+    color: orange;
+}
+.show_right a:hover {
+    color: red;
+}
+.cat-wrap p {
+    margin-top: 10px;
+}
+.cat-wrap p a {
+    display: block;
+    width: 65px;
+    height: 36px;
+    font-size: 14px;
+    line-height: 36px;
+    background: #fff;
+    border: 1px solid red;
+    text-align: center;
+    color: red;
+}
+
+#list {
+    background-color: rgb(240, 240, 240);
+    padding-top: 20px;
+}
+.list-wrap {
+    width: 1090px;
+    margin: 0 auto;
+    /* overflow: hidden; */
+}
+.list_content ul li {
+    position: relative;
+    float: left;
+    width: 262px;
+    height: 412px;
+    margin: 0 7px 14px 0;
+    background-color: #fff;
+    font-size: 12px;
+    border: 1px solid transparent;
+}
+.list_content ul li > img {
+    width: 232px;
+    height: 232px;
+    padding: 15px 15px 10px;
+    cursor: pointer;
+}
+.list_content ul li > div {
+    position: absolute;
+    width: 100%;
+    top: 270px;
+    left: -1px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-top: 0;
+}
+.list_content ul li h3 {
+    height: 22px;
+    line-height: 22px;
+    color: #e31436;
+    overflow: hidden;
+    font-size: 22px;
+    margin-top: 5px;
+}
+.list_content ul li h4 {
+    margin-top: 5px;
+    line-height: 22px;
+}
+.list_content ul li h4 img {
+    height: 22px;
+    width: 71px;
+}
+.list_content ul li p {
+    width: 234px;
+    font-size: 13px;
+    line-height: 20px;
+    margin-top: 5px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    cursor: pointer;
+}
+.list_content ul li h5 {
+    width: 234px;
+    height: 20px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    line-height: 20px;
+    font-size: 13px;
+    color: #e31436;
+}
+.list_content ul li h5 span {
+    display: inline-block;
+    padding: 0 3px;
+    margin-right: 4px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 12px;
+    border-radius: 2px;
+}
+.list_content ul li h5 span:nth-of-type(1) {
+    height: 14px;
+    line-height: 14px;
+    background-color: #fff;
+    border: 1px solid #e31436;
+    color: #e31436;
+}
+.list_content ul li h5 span:nth-of-type(2) {
+    height: 16px;
+    line-height: 16px;
+    background-color: #e31436;
+    color: #fff
+}
+.list_content ul li h5 span:nth-of-type(3) {
+    background-color: #e31436;
+    height: 16px;
+    line-height: 16px;
+    color: #fff
+}
+.list_content ul li h6 {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    height: 18px;
+    line-height: 18px;
+}
+.list_content ul li > div div {
+    font-size: 12px;
+    color: #999;
+    margin-top: 4px;
+}
+.list_content ul li:hover {
+    border: 1px solid red;
+}
+.list_content ul li:hover p {
+    white-space: normal;
+    text-overflow: clip;
+    overflow: visible;
+}
+.list_content ul li:hover > div {
+    border-color: red;
+    z-index: 99;
+}
+.list_content ul li p:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+/* pagination */
+#pagi {
+    background: rgb(240, 240, 240);
+}
+.pagi-wrap {
+    width: 1090px;
+    margin: 0 auto;
+    text-align: center;
+}
+.pagi-wrap .panel-body {
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+}
+.panel-body a {
+    min-width: 28px;
+    height: 28px;
+    border: #e3e3e3 1px solid;
+    line-height: 28px;
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+    margin-right: 5px;
+}
+.panel-body .active {
+    width: 28px;
+    height: 28px;
+    border: #e3e3e3 1px solid;
+    line-height: 28px;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    background: chocolate;
+}
