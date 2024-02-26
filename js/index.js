@@ -462,7 +462,7 @@ function floorNav () {
         const index = $(this).index()
         console.log($('.module-wrap').eq(index).parent().offset().top)
         window.scrollTo({
-            top: $('.module-wrap').eq(index).parent().offset().top,
+            top: $('.module-wrap').eq(index).parent().offset().top - 50,
             behavior: "smooth"
         })
     }).prev().click(function() {

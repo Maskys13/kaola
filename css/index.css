@@ -134,7 +134,7 @@
 }
 .aside_la {
     position: fixed;
-    top: 70px; left: -9px;
+    top: 70px; left: 0;
 }
 .aside_left  a {
     display: block;

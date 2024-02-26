@@ -70,7 +70,7 @@ $(function() {
         .then((res) => {
             if (res.code === 1) {
                 setCookie('nickname', res.nickname, 30)
-                window.location.href = '../html/index.html'
+                window.location.href = '../index.html'
             } else if (res.code === 0) {
                 $('.login-wrap h3').css('opacity', 1)
             }
